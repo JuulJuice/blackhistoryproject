@@ -8,12 +8,30 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    var flashcard: Flashcard?
+    let deck = Deck()
+    
+    
+    @IBOutlet var background: UIView!
+    @IBOutlet weak var personLabel: UILabel!
+    @IBOutlet weak var imageLabel: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
+    override func viewDidAppear(_ animated: Bool) {
 
+            if let flashcard = deck.randomCard {
 
-}
+                self.flashcard = flashcard
 
+                  personLabel.text = flashcard.term
+
+                    imageLabel.image = flashcard.image
+
+                    background.backgroundColor = flashcard.color
+
+                }
+        }
+    
+    }

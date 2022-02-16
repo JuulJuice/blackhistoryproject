@@ -13,6 +13,8 @@
 		27015D7927BAB55400C9B9C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27015D7727BAB55400C9B9C3 /* Main.storyboard */; };
 		27015D7B27BAB55A00C9B9C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27015D7A27BAB55A00C9B9C3 /* Assets.xcassets */; };
 		27015D7E27BAB55A00C9B9C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27015D7C27BAB55A00C9B9C3 /* LaunchScreen.storyboard */; };
+		27015D8827BBE25A00C9B9C3 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27015D8727BBE25A00C9B9C3 /* Deck.swift */; };
+		27015D8A27BBE5B700C9B9C3 /* Flashcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27015D8927BBE5B700C9B9C3 /* Flashcard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		27015D7A27BAB55A00C9B9C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27015D7D27BAB55A00C9B9C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27015D7F27BAB55A00C9B9C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27015D8727BBE25A00C9B9C3 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		27015D8927BBE5B700C9B9C3 /* Flashcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashcard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +64,9 @@
 				27015D7327BAB55400C9B9C3 /* SceneDelegate.swift */,
 				27015D7527BAB55400C9B9C3 /* ViewController.swift */,
 				27015D7727BAB55400C9B9C3 /* Main.storyboard */,
+				27015D8927BBE5B700C9B9C3 /* Flashcard.swift */,
 				27015D7A27BAB55A00C9B9C3 /* Assets.xcassets */,
+				27015D8727BBE25A00C9B9C3 /* Deck.swift */,
 				27015D7C27BAB55A00C9B9C3 /* LaunchScreen.storyboard */,
 				27015D7F27BAB55A00C9B9C3 /* Info.plist */,
 			);
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27015D8A27BBE5B700C9B9C3 /* Flashcard.swift in Sources */,
 				27015D7627BAB55400C9B9C3 /* ViewController.swift in Sources */,
+				27015D8827BBE25A00C9B9C3 /* Deck.swift in Sources */,
 				27015D7227BAB55400C9B9C3 /* AppDelegate.swift in Sources */,
 				27015D7427BAB55400C9B9C3 /* SceneDelegate.swift in Sources */,
 			);
