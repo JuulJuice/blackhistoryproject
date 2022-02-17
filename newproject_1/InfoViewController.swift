@@ -16,7 +16,7 @@ class InfoViewController: UIViewController {
     override func viewDidLoad() {
             super.viewDidLoad()
             if let card = flashcard {
-                textField.text = card.definition
+                textView.text = card.definition
                 personLabel.text = card.term
             }
 
