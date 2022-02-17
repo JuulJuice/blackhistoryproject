@@ -34,4 +34,10 @@ class ViewController: UIViewController {
                 }
         }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+          if let infoController = segue.destination as? InfoViewController {
+              infoController.flashcard = flashcard
+      }
+
     }
+}
